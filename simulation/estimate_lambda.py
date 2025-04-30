@@ -4,6 +4,7 @@ import numpy as np
 import pandas as pd
 import csv
 
+## define helper functions
 def binary(x, k=None):
     x = np.asarray(x).reshape(-1)
     base = 2
@@ -72,7 +73,7 @@ def count_accuracy(B_true, B_est):
     #        "reverse": reverse,
     #        "unoriented_correct": unoriented_correct}
 
-
+## main code
 pi = pd.read_csv('pi_collider_5000.csv', header = None) # change filename accordingly
 
 Nrep = len(pi)
