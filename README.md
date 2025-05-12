@@ -6,5 +6,5 @@ This repository contains the MATLAB and Python codes for the manuscript [Lee, S.
 To run simulations, go to the folder `simulations` and run the `simulation_main.m` file. The simulation settings such as the true graphical structures and conditional probabilities can be changed within the script. To estimate the latent DAG $\Lambda$, run the `estimate_lambda.py` file (in Python).
 
 ### Additional codes:
-The folder `utilities` contains helper functions required to implement the main algorithms. We recommend adding this folder using the `add path' utilities'` command in MATLAB.
+The folder `utilities` contains helper functions required to implement the main algorithms. We recommend adding this folder using the `add path 'utilities'` command in MATLAB.
 
