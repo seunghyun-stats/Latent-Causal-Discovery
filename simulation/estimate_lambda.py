@@ -1,7 +1,6 @@
 import ges
 import numpy as np
 import pandas as pd
-import csv
 
 ## define helper functions
 def binary(x, k=None):
